@@ -1,0 +1,7 @@
+{
+    "welcome": "Welcome to the file manager",
+    "error": {
+      "general": "An error occurred",
+      "notFound": "Resource not found"
+    }
+  }
