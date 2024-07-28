@@ -1,7 +1,0 @@
-{
-  "welcome": "Welcome",
-  "login": {
-    "success": "Login successful!",
-    "error": "Invalid credentials"
-  }
-}
