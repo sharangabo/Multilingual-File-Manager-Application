@@ -9,7 +9,7 @@ document.getElementById('uploadForm').addEventListener('submit', function (e) {
         formData.append('file', fileInput.files[0]);
         formData.append('description', description);
 
-        fetch('http://localhost:3000/upload', {
+        fetch('http://localho/upload', {
             method: 'POST',
             body: formData
         })

@@ -21,19 +21,19 @@
         <div id="language-selector">
             <h3>App Language</h3>
             <select id="language-dropdown" onchange="changeLanguage(this.value)">
-                <option value="kirundi">Kirundi</option>
+               
                 <option value="french">French</option>
                 <option value="english" selected>English</option>
-                <option value="swahili">Swahili</option>
+               
             </select>
         </div>
     </aside>
         <main>
             <div class="content container">
-                <h2 id="page-title">{{_('title')}}</h2>
+                <h2 id="page-title">Files</h2>
                 <form id="upload-form">
                     <input type="file" id="file-upload" name="file" required />
-                    <button type="submit" class="button">{{_('upload_file')}}</button>
+                    <button type="submit" class="button">upload_file</button>
                 </form>
                 <h3>Uploaded Files</h3>
                 <ul id="file-list"></ul>
